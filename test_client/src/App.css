@@ -1,0 +1,79 @@
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.rel {
+  margin-top: 25px;
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  height: 100vp;
+  border-color: maroon;
+  border-width: 5px;
+  padding: 0px;
+}
+
+.auth {
+  justify-content: center;
+  width: 400px;
+}
+
+.auth-buttons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.mybtn {
+  margin-top: 10px;
+}
+.myList {
+  margin-top: 25px;
+}
+
+#popup_container {
+  position: absolute;
+  right: 0px;
+  top: 0px;
+}
+
+#snackbar {
+  width: 250px;
+  margin-left: -125px;
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  border-radius: 4px;
+  padding: 10px;
+  display: block;
+  position: relative;
+  z-index: 1;
+  margin: 10px;
+  overflow: hidden;
+  animation: fadein 0.5s, fadeout 0.5s 2.5s;
+}
+
+@keyframes fadein {
+  from {
+    right: -30px;
+    opacity: 0;
+  }
+  to {
+    right: 0px;
+    opacity: 1;
+  }
+}
+
+@keyframes fadeout {
+  from {
+    top: 0px;
+    opacity: 1;
+  }
+  to {
+    top: -30px;
+    opacity: 0;
+  }
+}
+
