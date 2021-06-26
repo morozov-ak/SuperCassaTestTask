@@ -61,7 +61,7 @@ const AuthPage = ({codes,ws}) => {
             <div className="auth" onSubmit={(event) => { event.preventDefault() }}>
             
                 <div className="input-group mb-3">
-                    <button className="btn btn-outline-secondary dropdown-toggle" type="button" data-toggle="dropdown" aria-expanded="false">+{phoneNumber.code}</button>
+                    <button className="btn btn-outline-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">+{phoneNumber.code}</button>
                     <ul className="dropdown-menu">
                         {codes.map(code=>{
                             return <li key={code} onClick={()=>setPhoneNumber({...phoneNumber,code})} className="dropdown-item">{code}</li>
