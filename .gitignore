@@ -126,7 +126,3 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
-#mongodb config
-/config
-config/default.json
-#models/mailer.js

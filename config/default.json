@@ -1,0 +1,6 @@
+{
+    "port": 5000,
+    "jwtSecret": "moroz",
+    "mongoUri": "mongodb+srv://Tester:Qtmvia9Qz5dP7AM@cluster0.pas4v.azure.mongodb.net/testTask?retryWrites=true&w=majority",
+    "codes":[7,672,64]
+}
